@@ -1,0 +1,18 @@
+POST http://localhost:3003/api/blogs/6330df98220dab525691294f/comments
+Content-Type: application/json
+
+{
+    "comment": {"content": "new test1"},
+    "blog": {
+        "title": "changed blog",
+        "author": "ab",
+        "url": "addad",
+        "likes": 0,
+        "user": "631a40071d3f8037bd162c22",
+        "comments": [
+            "6330ffc401a5e08a33cb8c06",
+            "6331007601a5e08a33cb8c09",
+            "633101e082be86b8b9a2f8da"
+        ]
+    }
+}
